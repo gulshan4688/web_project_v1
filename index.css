@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7091e6;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: #7091e6;
+    border-radius: 4px;
+}
+
+.navbar-left {
+    display: flex;
+    font-family: Georgia;
+}
+
+.navbar-right {
+    display: flex;
+}
+
+.navbar-right button {
+    background-color: #7091e6;
+    color: white ;
+    border: none;
+    padding: 8px 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: Georgia;
+
+}
+
+.navbar-right button:hover {
+    background-color: white;
+    color: #7091e6;
+}
+
+.main{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    margin: 5px;
+}
+.student{
+    height: 80%;
+    width: 50%;
+    margin-right: 5px;
+}
+.teacher{
+    height: 80%;
+    width: 50%;
+    margin-left: 5px;
+}
+
+img{
+    height: 100%;
+    width : 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    /* filter: blur(10px); */
+    background-color: #f5a623; /* Background color for blending */
+    mix-blend-mode: multiply;
+}
