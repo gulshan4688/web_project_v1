@@ -6,7 +6,7 @@
     <title>Web Dev</title>
 </head>
 <body>
-    <h1> Hiiii I am Shizuka</h1>
+    <h1> Tutor Finder</h1>
   
 </body>
 </html>
